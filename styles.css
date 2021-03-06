@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background: blue;
+}
+
+#one {
+    text-align: center;
+    background: green;
+}
+
+.one {
+    text-align: center;
+    background: indigo;
+}
+
+#imageone {
+    /* display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center; */
+   
+    border-radius: 50%;
+}
