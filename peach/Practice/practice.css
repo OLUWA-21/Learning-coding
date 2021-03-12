@@ -11,3 +11,18 @@ ul {
 li {
     padding-left: 10px;
 }
+
+#welcome {
+    animation-duration: 5s;
+    animation-name: welcome;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes welcome{
+    from{   transform: translateX(-200px)}
+    to{ transform: translatex(1500px)}
+
+}
