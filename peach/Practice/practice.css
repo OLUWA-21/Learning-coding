@@ -13,16 +13,15 @@ li {
 }
 
 #welcome {
-    animation-duration: 5s;
+    animation-duration: 12s;
     animation-name: welcome;
     animation-fill-mode: both;
-    animation-delay: 2s;
     animation-iteration-count: infinite;
 }
 
 
 @keyframes welcome{
-    from{   transform: translateX(-200px)}
+    from{   transform: translateX(-150px)}
     to{ transform: translatex(1500px)}
 
 }
